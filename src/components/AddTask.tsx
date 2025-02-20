@@ -14,13 +14,13 @@ const AddTask = (props: AddTaskProps) => {
     <div className="space-y-4 p-6 bg-slate-200 rounded-md shadow flex flex-col">
       <Input
         type="text"
-        placeholder="Type task title"
+        placeholder="Task title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
       <Input
         type="text"
-        placeholder="Type task description"
+        placeholder="Task description"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
